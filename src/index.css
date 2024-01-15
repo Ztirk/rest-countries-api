@@ -5,5 +5,7 @@
 @layer base {
   :root {
     font-family: "Nunito Sans", sans-serif;
+    color: #111517;
+    font-size: 14px;
   }
 }

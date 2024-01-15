@@ -7,8 +7,9 @@ export default function Search() {
   const handleEnterSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     const country = e.currentTarget.value;
     if (e.key == "Enter") setSearchParams({ country: country });
+    console.log(searchParams);
   };
-  
+
   return (
     <div
       className={`bg-white(dark-mode-text&light-mode-element) dark:bg-dark-blue-element drop-shadow-md rounded-md

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { useSearchParams } from "react-router-dom";
 import Backdrop from "./Backdrop";
@@ -12,6 +12,7 @@ export default function Filter() {
 
   const handleClickFilter = (e: React.MouseEvent<HTMLLIElement>) => {
     const region = e.currentTarget.id;
+    console.log(searchParams);
     setSearchParams({ region: region });
   };
 

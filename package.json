@@ -1,6 +1,5 @@
 {
   "name": "rest_countries_api",
-  "homepage": "https://ztirk.github.io/rest-countries-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",

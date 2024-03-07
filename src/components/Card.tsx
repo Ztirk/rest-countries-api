@@ -45,7 +45,7 @@ export default function Card() {
         <>
           {Array.isArray(flags) ? (
             flags.map((data) => (
-              <Link to={`/flag/${data.name.common}`}>
+              <Link to={`/rest-countries-api/flag/${data.name.common}`}>
                 <div
                   className={`text-dark-gray(light-mode-text) bg-white(dark-mode-text&light-mode-element) rounded-md drop-shadow-md
                             grid gap-5

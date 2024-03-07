@@ -9,8 +9,11 @@ import Flag from "../pages/Flag";
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<Main />}></Route>
-      <Route path="/flag/:flagName" element={<Flag />}></Route>
+      <Route path="/rest-countries-api" element={<Main />}></Route>
+      <Route
+        path="/rest-countries-api/flag/:flagName"
+        element={<Flag />}
+      ></Route>
     </>
   )
 );

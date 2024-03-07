@@ -39,7 +39,7 @@ export default function Flag() {
                   dark:bg-very-dark-blue(dark-mode-background)`}
       >
         <Container className={`my-16`}>
-          <Link to="..">
+          <Link to="/rest-countries-api">
             <div
               className={`flex gap-2 justify-center items-center
                           w-28 h-10

@@ -74,12 +74,12 @@ export default function Flag() {
                 flex flex-col gap-2`}
                 >
                   <div>
-                    <Span>Native Name</Span>{" "}
+                    <Span>Native Name: </Span>{" "}
                     {Object.values(flag[0].name.nativeName as object)[0].common}
                   </div>
                   <div>
                     <Span>Population: </Span>
-                    {flag[0].population}
+                    {flag[0].population.toLocaleString()}
                   </div>
                   <div>
                     <Span>Region: </Span>
@@ -99,7 +99,7 @@ export default function Flag() {
                 flex flex-col gap-2`}
                 >
                   <div>
-                    <Span>Top Level Domain</Span>
+                    <Span>Top Level Domain: </Span>
                     {flag[0].tld[0]}
                   </div>
                   <div>

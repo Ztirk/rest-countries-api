@@ -1,4 +1,4 @@
-import {useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   getAllFlags,
   getFlagsByName,
@@ -68,7 +68,8 @@ export default function Card() {
                   </div>
                   <div className={`mx-6 mb-8`}>
                     <div className="">
-                      <Span>Population:</Span> {data.population}
+                      <Span>Population:</Span>{" "}
+                      {data.population.toLocaleString()}
                     </div>
                     <div>
                       <Span>Region:</Span> {data.region}

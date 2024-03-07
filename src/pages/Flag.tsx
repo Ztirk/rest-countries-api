@@ -10,7 +10,7 @@ export default function Flag() {
   const [flag, setFlag] = useState<unknown>();
   const [borders, setBorders] = useState<string[]>();
 
-  const country = location.pathname.split("/")[2];
+  const country = location.pathname.split("/")[3];
 
   useEffect(() => {
     getFlagsByName(setFlag, country);

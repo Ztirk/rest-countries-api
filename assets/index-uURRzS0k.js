@@ -105,7 +105,7 @@ Error generating stack: `+o.message+`
       dark:bg-very-dark-blue(dark-mode-background)`,children:[T.jsx(Mp,{}),T.jsxs(tn,{className:"bg-very-light-gray(light-mode-background) dark:bg-very-dark-blue(dark-mode-background)",children:[T.jsxs(tn,{className:`flex sm:justify-between max-sm:flex-col max-sm:gap-6
                       px-24 py-12
                     `,children:[T.jsx(xg,{}),T.jsx(Ng,{})]}),T.jsx(tn,{className:`flex flex-wrap gap-x-16 gap-y-20 justify-center
-                      px-24`,children:T.jsx(Y0,{})})]})]})}function G0(){const[e,t]=P.useState(),[n,r]=P.useState(),l=location.pathname.split("/")[2];return P.useEffect(()=>{ih(t,l)},[l]),P.useEffect(()=>{e&&J0(r,Array.isArray(e)&&e[0].borders?Object.values(e[0].borders):[])},[e]),T.jsxs(tn,{className:`w-screen h-screen 
+                      px-24`,children:T.jsx(Y0,{})})]})]})}function G0(){const[e,t]=P.useState(),[n,r]=P.useState(),l=location.pathname.split("/")[3];return P.useEffect(()=>{ih(t,l)},[l]),P.useEffect(()=>{e&&J0(r,Array.isArray(e)&&e[0].borders?Object.values(e[0].borders):[])},[e]),T.jsxs(tn,{className:`w-screen h-screen 
       bg-very-light-gray(light-mode-background) dark:bg-very-dark-blue(dark-mode-background)
       `,children:[T.jsx(Mp,{}),T.jsxs(tn,{className:`px-24
                   bg-very-light-gray(light-mode-background) 
